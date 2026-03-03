@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Report Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .form-container {
+            width: 700px;
+            margin: 20px auto;
+            border: 1px solid #000;
+            background-color: #fff;
+        }
+
+        .form-header {
+            background-color: #0b3d3d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #999;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .label {
+            width: 30%;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select,
+        textarea {
+            width: 95%;
+            padding: 5px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .buttons {
+            text-align: center;
+            padding: 15px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 8px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>REPORT FORM</h1>
+
+    <div class="form-container">
+        <div class="form-header">INFORMATION TABLE</div>
+
+        <form>
+            <table>
+                <tr>
+                    <td class="label">NAME</td>
+                    <td><input type="text" placeholder="Enter Your Full Name"></td>
+                </tr>
+
+                <tr>
+                    <td class="label">EMAIL</td>
+                    <td><input type="email" placeholder="Enter Internet Contact Address"></td>
+                </tr>
+
+                <tr>
+                    <td class="label">PASSWORD</td>
+                    <td><input type="password" placeholder="Enter Code to Identify You"></td>
+                </tr>
+
+                <tr>
+                    <td class="label">ADDRESS</td>
+                    <td><input type="text" placeholder="Complete Address"></td>
+                </tr>
+
+                <tr>
+                    <td class="label">COUNTRY</td>
+                    <td>
+                        <select>
+                            <option>Australia</option>
+                            <option>Canada</option>
+                            <option>China</option>
+                            <option>Germany</option>
+                            <option selected>Pakistan</option>
+                            <option>Turkey</option>
+                            <option>United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">GENDER</td>
+                    <td>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">HOBBIES</td>
+                    <td>
+                        <input type="checkbox"> Reading <br>
+                        <input type="checkbox"> Listening Music <br>
+                        <input type="checkbox"> Gardening <br>
+                        <input type="checkbox"> Swimming <br>
+                        <input type="checkbox"> Athletics <br>
+                        <small>Check all that apply</small>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">YOUR WEB SITE</td>
+                    <td><input type="text" placeholder="http://"></td>
+                </tr>
+
+                <tr>
+                    <td class="label">OTHER INFORMATION ABOUT YOU</td>
+                    <td>
+                        <textarea placeholder="Write any other information here..."></textarea>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="buttons">
+                <input type="submit" value="SEND IN MY REPORT">
+                <input type="reset" value="ERASE REPORT FORM">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
