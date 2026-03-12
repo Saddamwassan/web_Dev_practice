@@ -1,64 +1,84 @@
-// // console.log('hello Ramadan!');
-// // var num; //declaration
-// var num = 2;   // assignment
-// var num1 = 2;
-// // var num = 24; // initialization
-// console.log(num == num1);
-// // let sum = (num + num1) * 4;
-// console.log('sum is equal to ' + (num1 + num) * 5);
+// // // console.log('hello Ramadan!');
+// // // var num; //declaration
+// // var num = 2;   // assignment
+// // var num1 = 2;
+// // // var num = 24; // initialization
+// // console.log(num == num1);
+// // // let sum = (num + num1) * 4;
+// // console.log('sum is equal to ' + (num1 + num) * 5);
 
-// let x = 5;
-// let y = 2;
-// let z = x % y;
+// // let x = 5;
+// // let y = 2;
+// // let z = x % y;
 
-// console.log('reminder is ' + z);
+// // console.log('reminder is ' + z);
 
-let student = "Ali";
-// if (student == 'Ali') {
-//     console.log("allow to come inside.")
+// let student = "Ali";
+// // if (student == 'Ali') {
+// //     console.log("allow to come inside.")
+// // }
+// // else if (student == 'Ahmed') {
+// //     console.log('allow to come inside.')
+// // }
+// // else {
+// //     console.log('your not allowed!')
+// // }
+
+// console.log((student == "Ali") ? "welcome" : "Not welcome");
+
+// // if (student != 'Ali') {
+// //     console.log('Ali is absent')
+// // }
+
+// let day;
+// let date = new Date().getDay();
+
+// // console.log(date);
+
+// switch (date) {
+//     case 0:
+//         day = "Sunday";
+//         break;
+//     case 1:
+//         day = "Monday";
+//         break;
+//     case 2:
+//         day = "Tuesday";
+//         break;
+//     case 3:
+//         day = "Wednesday";
+//         break;
+//     case 4:
+//         day = "Thursday";
+//         break;
+//     case 5:
+//         day = "Friday";
+//         break;
+//     case 6:
+//         day = "Saturday";
 // }
-// else if (student == 'Ahmed') {
-//     console.log('allow to come inside.')
-// }
-// else {
-//     console.log('your not allowed!')
-// }
 
-console.log((student == "Ali") ? "welcome" : "Not welcome");
+// console.log(day);
 
-// if (student != 'Ali') {
-//     console.log('Ali is absent')
-// }
 
-let day;
-let date = new Date().getDay();
-
-// console.log(date);
-
-switch (date) {
-    case 0:
-        day = "Sunday";
-        break;
-    case 1:
-        day = "Monday";
-        break;
-    case 2:
-        day = "Tuesday";
-        break;
-    case 3:
-        day = "Wednesday";
-        break;
-    case 4:
-        day = "Thursday";
-        break;
-    case 5:
-        day = "Friday";
-        break;
-    case 6:
-        day = "Saturday";
+for (let i = 0; i < 50; i++) {
+    console.log('Hello ');
 }
 
-console.log(day);
+
+let j = 0;
+// while (j <= 10) {
+//     console.log('while is runing for' + j);
+//     j++;
+// }
+
+
+do {
+    console.log('do while is runing for ' + j)
+    j++;
+    break;
+} while (j > -6)
+
 
 
 
