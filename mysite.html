@@ -4,46 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
-    <!-- internal styling  -->
     <style>
-        .p1 {
-            background-color: lightgoldenrodyellow;
+        img {
+            width: 100px;
         }
 
-        .div1 {
-            background-color: rgb(249, 229, 93);
-            height: 300px;
+        header {
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
+            border-bottom: 2px solid rgb(237, 199, 45);
+            padding-bottom: 10px;
+        }
+
+        nav {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding-right: 5px;
+
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            list-style-type: none;
+            color: gray;
+            font-size: 19px;
+            /* width: 50%; */
+        }
+
+        .hireme {
+            padding: 10px;
+            margin-left: 40px;
+            width: 100px;
+            background-color: rgb(237, 199, 45);
+            color: white;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        .cv {
+            width: 120px;
+            padding: 15px;
+            background-color: rgb(237, 199, 45);
+            color: white;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        .profile {
+            width: 500px;
+        }
+
+        section {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+            text-align: right;
+        }
+
+        h3 {
+            color: rgb(237, 199, 45);
         }
     </style>
 </head>
 
 <body>
-    <!-- inline styling  -->
-    <!-- <h1 style="color:red; font-size:10px">hello</h1>
-    <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis facilis, dolores voluptas enim
-        suscipit, saepe
-        voluptate sapiente facere accusantium omnis, delectus nulla.</p>
+    <!-- header  -->
+    <header>
+        <img src="./assets/logo.png" alt="logo">
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laudantium perspiciatis, accusantium ex possimus
-        blanditiis voluptate impedit dolore culpa laborum ut. Soluta.</p> -->
+        <!-- navbar  -->
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Case Study</li>
 
-    <div class="div1">
+                <button class="hireme"> Hire me</button>
 
-        <img src="./assets/profile.jpg" alt="profile pic">
-        <!-- <img src="./assets/profile.jpg" alt="profile pic"> -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae error suscipit impedit facilis iusto. Non
-            officia praesentium provident. Sunt officiis quasi totam?</p>
-        <h1>i m block element</h1>
+            </ul>
+        </nav>
 
-    </div>
+    </header>
+    <!-- intro section  -->
+    <section>
+        <img class="profile" src="./assets/profile.jpg" alt="profile pic">
+
+        <div class="intro">
+            <h1> Hello , I am a Web Developer</h1>
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit repellendus voluptate quisquam vel nisi
+                illo? Voluptate dolor commodi tempora.</p>
+
+            <button class="cv"> Download CV</button>
 
 
-    <script src="script.js"></script>
+        </div>
+    </section>
 </body>
 
 </html>
